@@ -1,0 +1,329 @@
+body{
+    background-color: rgba(0, 0, 0, 0.99);
+}
+.main-photo{
+    background-color: inherit;
+    position: absolute;
+    width: 15%;
+    height: 350px;
+    margin: 15px;
+    border: solid #8e75ac 5px;
+    float: left;
+
+}
+#main-personal-photo {
+    position: relative;
+    width: 90%;
+    height: 90%;
+    margin: 5%;
+}
+.navigation-field {
+    position: fixed;
+    width: 100%;
+    height: 50px;
+    margin: 0px auto;
+    top: 15px;
+    padding-bottom: 20px;
+      background-color: #8e75ac;
+    z-index: 10;
+}
+.navigation-field > ul {
+    display: flex;
+    justify-content: flex-end;
+    padding: 5px;
+}
+li > a{
+    text-decoration: none;
+    color: white;
+}
+.navigation-field-item {
+    display: inline-block;
+    margin-left: 30px;
+    font-family: 'Gloria Hallelujah', cursive;
+    color: white;
+    cursor: pointer;
+    margin-right: 20px;
+}
+.navigation-field-item a:hover {
+    font-size: 1.4em;
+}
+.information-about-education{
+    height: 800px;
+}
+.personal-information h1 {
+    color: white;
+    font-family: 'Gloria Hallelujah', cursive;
+    margin-left: 30%;
+    margin-top: 80px;
+    font-size: 3em;
+}
+.personal-information p{
+    font-family: 'Gloria Hallelujah', cursive;
+    display: inline-block;
+    width: 70%;
+    margin-left: 20%;
+    color: white;
+}
+.education-information-header{
+    position: relative;
+    top: 500px;
+    width: 60%;
+    height: 100px;
+    background-color: #13855e;
+    color: white;
+    font-family:  'Gloria Hallelujah', cursive;
+    font-size: 2em;
+    padding-left: 40%;
+}
+.information-table {
+    position: relative;
+    padding: 5px;
+    top: 600px;
+    width: 53%;
+    left: 100px;
+    margin: 0 auto;
+    height: 150px;
+    border: solid white;
+    color: white;
+    font-family:  'Gloria Hallelujah', cursive;
+    clear: both;
+}
+.information-table tr:nth-child(1){
+    background-color: #13855e;}
+
+.experience-table{
+    position: relative;
+    padding: 5px;
+    top: 600px;
+    width: 53%;
+    left: 100px;
+    margin: 0 auto;
+    height: 420px;
+    border: solid white;
+    color: white;
+    font-family:  'Gloria Hallelujah', cursive;
+    clear: both;
+
+}
+.experience-table tr:nth-child(1){
+    background-color: #13855e;}
+
+
+.experience-information-header{
+    position: relative;
+    top: 550px;
+    width: 60%;
+    height: 100px;
+    background-color: #a1901d;
+    color: white;
+    font-family:  'Gloria Hallelujah', cursive;
+    font-size: 3em;
+    padding-left: 40%;
+}
+.bsuir-university-photo{
+    width: 94%;
+    height: 300px;
+    position: relative;
+    margin: 15px;
+}
+.university-photo-border{
+    position: relative;
+    top: 680px;
+    width: 24%;
+    height: auto;
+    border: solid #13855e 5px;
+    float: left;
+    margin-left: 40%;
+}
+.school-photo-border{
+    position: relative;
+    top: 680px;
+    width: 22.5%;
+    height: auto;
+    border: solid #13855e 5px;
+    float: left;
+    margin-left: 100px;
+}
+.gomel-school-photo{
+    position: relative;
+    margin: 10px;
+    height: 310px;
+    width: 94%;
+}
+#experience-text{
+    position: relative;
+    top: 550px;
+    color: white;
+}
+.contact-information{
+
+    height: 800px;
+}
+.contact-information-header{
+    position: relative;
+    top: 600px;
+    width: 60%;
+    height: 100px;
+    background-color: #377b99;
+    color: white;
+    font-family:  'Gloria Hallelujah', cursive;
+    font-size: 2.5em;
+    padding-left: 40%;
+}
+@keyframes CatAnimation
+{
+    from { background: url(../img/sprite_catwalk.png) 0 0; }
+    to { background: url('../img/sprite_catwalk.png') 0px -2090px; }
+}
+#Walking-Cat
+{
+    position: absolute;
+    top: 700px;
+    width: 400px;
+    height: 190px;
+    background: transparent url('../img/sprite_catwalk.png') 0 0 no-repeat;   /* Our sprite as viewport background */
+    animation: CatAnimation 1s steps(11) infinite;
+}
+.icon-panel{
+    position: relative;
+    background-color: #207187;
+    width: 100%;
+    height: 180px;
+    margin: 0 auto;
+    top: 600px;
+    padding-top: 20px;
+}
+.phone-icon{
+    background-image: url('../img/phone-symbol-1-64x64.png');
+    height: 64px;
+    width: 64px;
+    margin-left: 20px;
+    float: left;
+}
+.phone-number{
+    color: black;
+    font-family: 'Gloria Hallelujah', cursive;
+    font-size: 1.5em;
+    padding-left: 120px;
+    letter-spacing: 0.2em;
+}
+.mail-icon{
+    background-image: url('../img/mail-inbox-64x64.png');
+    height: 64px;
+    width: 64px;
+    float: left;
+    margin-left: 20px;
+    float: left;
+}
+.mail-adress{
+    color: black;
+    font-family: 'Gloria Hallelujah', cursive;
+    font-size: 1.5em;
+    padding-left: 120px;
+    letter-spacing: 0.2em;
+}
+.icon-panel a{
+    position: relative;
+    top: -140px;
+    display: inline-block;
+    width: 128px;
+    height: 128px;
+    float: right;
+}
+.Vk-image-link{
+    margin-right: 5px;
+    margin-left: 5px;
+    background-image: url('../img/vk-social-logotype.png');
+}
+.Instagram-image-link{
+    margin-right: 5px;
+    margin-left: 5px;
+      background-image: url('../img/instagram-social-network-logo-of-photo-camera.png');
+}
+.Telegram-image-link{
+    margin-right: 5px;
+    margin-left: 5px;
+      background-image: url('../img/telegram.png');
+}
+@media only screen and (min-width: 420px) and (max-width: 1024px) {
+    .navigation-field {
+        height: 80px;
+    }
+    .navigation-field-item {
+        width: 25%;
+        margin-left: 5px;
+        margin-right: 5px;
+    }
+    .main-photo{
+        position: relative;
+        top: 100px;
+        width: 80%;
+        height: 1000px;
+        float: none;
+
+    }
+    .personal-information h1 {
+        margin-top: 150px;
+    }
+    .personal-information p{
+        display: inline-block;
+        width: 70%;
+        margin-left: 20%;
+        color: white;
+    }
+    .information-about-education{
+        height: 440px;
+    }
+    .education-information-header{
+        top: 0px;
+    }
+    .university-photo-border{
+        display: none;
+    }
+    .school-photo-border{
+        display: none;
+    }
+    .gomel-school-photo{
+     display: none;
+    }
+    .information-table {
+         width: 90%;
+        left: 5%;
+        margin: 0 auto;
+        height: 300px;
+        top: 0px;
+    }
+    .experience-table {
+         width: 90%;
+         left: 5%;
+         margin: 0 auto;
+         height: 300px;
+        top: 4px;
+     }
+    .experience-information-header{
+        top: 0px;
+    }
+    #experience-text{
+        top: 400px;
+    }
+    .contact-information-header{
+        top: 50px;
+        height: 150px;
+        width: 70%;
+        padding-left: 30%;
+    }
+    .icon-panel{
+        top: 50px;
+        height: 290px;
+        margin-left: 0;
+    }
+    .icon-panel a{
+        top: 0px;
+   }
+    #Walking-Cat{
+        display: none;
+    }
+    .contact-information{
+        height: 300px;
+    }
+}
